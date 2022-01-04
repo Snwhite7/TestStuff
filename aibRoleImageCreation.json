@@ -17,6 +17,16 @@
         "Microsoft.AAD/domainServices/oucontainer/read",
         "Microsoft.AAD/domainServices/oucontainer/write",
         "Microsoft.AAD/domainServices/oucontainer/delete", 
+        
+        "Microsoft.Resources/deployments/*",
+         "Microsoft.Resources/subscriptions/resourceGroups/read",
+         "Microsoft.Network/virtualNetworks/read",
+         "Microsoft.Network/virtualNetworks/subnets/read",
+         "Microsoft.Network/virtualNetworks/subnets/write",
+         "Microsoft.Network/virtualNetworks/subnets/join/action",
+         "Microsoft.Network/privateEndpoints/read",
+         "Microsoft.Network/privateEndpoints/write",
+         "Microsoft.Network/locations/availablePrivateEndpointTypes/read",
 
         "Microsoft.Compute/images/write",
         "Microsoft.Compute/images/read",
